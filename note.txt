@@ -1,0 +1,106 @@
+container : wadah/rumah (contohnya div), jadi saat kontainer diatur isi yang ada di dalam nya akan langsung mengikuti
+
+3 cara penulisan CSS 
+	inline : di dalam div (di taruh langsung di dalam elemen HTML nya)
+	internal : pada internal dalam satu file (harus buat satu2)
+	external: membuat file baru yang memang di set untuk css nya
+
+<div> 
+style : untuk css inline
+tanda titik koma (;) untuk memisahkan properti
+membuat file style.css (untuk css eksternal) jadi tidak perlu satu2
+
+
+___________________
+
+
+margin, padding, posiion
+
+margin : batas antara satu tag dengan tag lainnya
+
+margin-top: berpengaruh pada bagian atas tag
+
+penulisan margin seperti arah jarum jam atas (top), kanan (right), bawah (bottom), kiri (left)
+
+padding: jarak antara tulisan dengan border/batas dari tulisan (semuanya, atas-kanan-bawah-kiri)
+
+paddig-top: sama seperti margin (hanya untuk atasnya)
+
+position static: tidak berpengaruh/tidak ada top, right, bottom, dan left
+
+relative: walaupun ada tag lainnya tetap akan mendorong dan menumpuknya (menindih), tidak peduli dengan yang lain dan hanya berfokus pada dirinya sendiri, dan akan emngambil penuh dari kiri ke kanan
+
+fixed: tidak peduli juga dengan yang lain, jika posisi sudah ditentukan maka tidak akan bergerak dan tetap pada posisinya, dan mengambil sesuai isinya saja
+
+absolute: hampir mirip seperti fixed namun akan tetap tergeser jika di scroll, dan akan mengambil sesuai isinya saja
+
+sticky: jaraknya mengikut dari atas, dan mengambil penuh (full)
+
+____________
+
+selector: memilih tag-tag yang sama secara lebih spesifik (bisa juga dengan bantuan dari id dan class)
+class diawali dengan (.) dan bisa ditambahkan beberapa css sedangkan id diawali dengan tanda (#) dan hanya bisa diberikan satu css
+
+
+_______________
+
+menu navigasi
+membuat css dalam menu /navigasi
+
+text-decoration: none (untuk menghilangkan underline pada hyperlink)
+
+list-style : untuk menghilangkan tanda titik (ul/ol)
+
+display: block (display dalam bentuk kontak)
+float: left (mencari tempat kosong di sebelah kiri)
+padding: 1rem (1rem adalah salah satu jenis satuan seperti hal nya px)
+hover: nanti ketika dilewati oleh mouse, ia akan berubah menjadi seperti apa
+cursor: pointer (untuk mengubah kursor)
+visibility (untuk melihat tampil atau tidak)
+
+clear: untuk membersihkan dari float, agar elemen bawahnya tidak selalu mencari kekanan2
+
+____________
+
+satuan css (penggunaan satuan)
+
+absolute lengths (yang akan ditampilkan sesuai dengan yang ditulis di satuannya, kalau nilainya 100 yah 100), relaive lengths (tergantung yang diikuti, bisa dari ukuran layar, font size yang ada di dlm browser)
+
+float, inline-block
+
+memasukkan unit yang sering dipake di absolute: contohnya px (ukurannya akan tetap walaupun dalam setting browser diubah)
+unit relative rem (nilai nya tergantung dari font size yang ada dalam setting browser)
+
+relative seperti vmin-vmax-vw (akan mengikuti lebar/ukuran dari browser)
+
+ekstensi mobile/responsive web design tester
+
+______________________
+
+media query
+
+web harus bisa menyesuaikan ukuran layar yang sekarang berbeda2
+
+responsive web adalah web yang dapat mengikuti layarnya dan tidak ada yang tertutupi
+
+mengatur preset (nilai set awal, dimulai dari nol supaya saat mengambil gampang)
+
+____________
+
+layout
+
+layout adalah rumah2 nya
+layouting adlh mengatur
+
+bentuk tag jika dalam folder css tidak perlu pake awalan seperti class (.) dan id (#)
+
+fungsi alt pada img src adalah kalau wkt loadingnya lama atau gambar img tidak ditemukan
+
+fungsi dari layouting adalah mengatur rumah-rumah nya, supaya bisa terlihat rapi
+
+eps 11
+nav
+___________
+
+19-10-21 (P.Objek)
+buatlah 1 program mengurutkan dar io sampai 1 (nggak boleh ada 0 nya). menggunakan tipe data masing2 (for, do, while)
